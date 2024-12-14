@@ -1,0 +1,89 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(243, 239, 231);
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+ul li{
+  margin: 10px;
+  text-align: center;
+  position: relative;
+}
+ul li a{
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 1.15s;
+  
+}
+.dropdown{
+  display: none;
+  position: absolute;
+  left: -60px;
+  line-height: 15px;
+  white-space: nowrap;
+}
+
+.dropdown a{
+  margin: 5px;
+  text-align: right;
+}
+ul li:hover .dropdown{
+  display: block;
+}
+ul li a:hover{
+  background-color: rgba(6, 51, 50, 0.233);
+  color: black;
+}
+ul li a:active{
+  opacity: 0.4;
+}
+.logo{
+  width: 50px; 
+  border-radius: 20px;
+  padding: 10px;
+}
+.menu{
+  width: 20px;
+}
+.header-right{
+  display: flex;
+  margin-right: 20px;
+}
+.search{
+  border: 2px solid gray;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 25px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+}
+.input-search{
+ margin-top: 2px;
+ margin-left: -8px;
+ border: none;
+ outline: none;
+ font-size: 15px;
+}
+.input-search::placeholder{
+  font-size: 15px;
+}
+.bi-search{
+  position: absolute;
+  bottom: 3px;
+}
+.bi-person-fill{
+  margin-right: 2px;
+}
+.hamburg a{
+  display: block;
+}

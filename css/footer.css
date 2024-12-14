@@ -1,0 +1,64 @@
+.stepF{
+  height: 55vh;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: rgba(163, 125, 55, 0.685);
+  padding-top: 20px;   
+}
+.stepF .footer1{
+  display: flex;
+  /* width: 100vw;   */
+}
+.stepF .footer1 p{
+  color: wheat;
+}
+.stepF .footer1 .comp{
+  margin-right: 50px;   
+}
+.stepF .footer1 .comp h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+.stepF .footer1 .comp p{
+  line-height: 25px;  
+}
+.stepF .footer1 .enq{
+  margin-top: 40px;
+  display: flex;
+  margin-right: 70px;
+}
+.stepF .footer1 .enq p{
+  line-height: 30px;   
+}
+ .updateemail{
+  margin-top: 40px;
+ }
+.updateemail button{
+  padding: 4px;
+  border: none;
+  cursor:pointer;
+  border-radius: 5px;
+}
+.footcon{
+  margin-left: 60px;
+}
+
+.stepF .footer1 .footcon a{
+  margin-right: 10px;
+  color: white; 
+}
+.footcon p{
+  font-style: italic;
+}
+.footer2{
+  padding: 0px 20px ;
+  background-color: rgb(151, 77, 77);
+  padding-bottom: 0;
+  margin-top: 0px;
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style:  italic;
+  display: flex;
+  justify-content: space-between;    
+}
